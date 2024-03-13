@@ -1,0 +1,505 @@
+#main{
+    width: 100%;
+    background-color: #41b3a3;
+    padding-bottom: 20px;
+}
+.sec-main{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #e5e0ba;
+}
+.matnmomtaz{
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.matn-momtaz{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.item-momtaz{
+    margin-top: 20px;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.pirahan-momtaz{
+    width: 100%;
+    height: 350px;
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
+.pirahan-momtaz:hover{
+    filter: grayscale(0%);
+    transform: scale(.9);
+}
+.kolah-momtaz{
+    width: 100%;
+    height: 350px;
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
+.kolah-momtaz:hover{
+    filter: grayscale(0%);
+    transform: scale(.9);
+}
+.kif-momtaz{
+    width: 100%;
+    height: 350px;
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
+.kif-momtaz:hover{
+    filter: grayscale(0%);
+    transform: scale(.9);
+}
+.swiper{
+    width: 73%;
+}
+.swiper-slide p{
+    color: black;
+    text-align: center;
+}
+.swiper-slide pre{
+    color: #e27d60;
+    text-align: center;
+}
+.swiper-slide article{
+    background-color: rgb(231 229 232);
+}
+.swiper-slide article:hover{
+    background-color: rgb(194, 194, 194);
+}
+.swiper-button-prev{
+    color: #e27d60 !important;
+}
+.swiper-button-next{
+    color: #e27d60 !important;
+}
+.all-mahsolat{
+    margin-top: 70px;
+}
+.matne-ph{
+    justify-content: center;
+    margin-top: 10px;
+}
+.matn-pishnahadi{
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.meno-all{
+    margin-top: 20px;
+}
+.ul-pishnahadi{
+    justify-content: center;
+    gap: 2rem;
+}
+.linkpishnahadi{
+    color: black;
+}
+.all-m{
+    color: #41b3a3;
+}
+.linkpishnahadi:hover{
+    color: #41b3a3;
+}
+.item-all-mahsoul{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+@media only screen and (max-width:1100px) {
+    .item-all-mahsoul{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width:600px) {
+    .item-all-mahsoul{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+    }
+}
+.item-all-mahsoul span{
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+.item-all-mahsoul .svg-star{
+    width: 20px;
+    height: 20px;
+}
+.item-all-mahsoul img{
+    width: 100%;
+    height: 350px;
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
+.item-all-mahsoul img:hover{
+    filter: grayscale(0%);
+    transform: scale(.9);
+}
+.item-all-mahsoul p{
+    color: black;
+    text-align: center;
+}
+.item-all-mahsoul pre{
+    color: #e27d60;
+    text-align: center;
+}
+.item-all-mahsoul article{
+    background-color: rgb(231 229 232);
+}
+.item-all-mahsoul article:hover{
+    background-color: rgb(194, 194, 194);
+    transform-origin: center;
+}
+.btn-all{
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.btn-all-mahsoule{
+    font-size: 17px;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-all-mahsoule:hover{
+    background-color: #e27d60;
+}
+.div-attch{
+    width: 85%;
+    margin: 0 auto;
+}
+.div-attechmen{
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../image/black-friday-sale-with-gift-1696407.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.pre-btn{
+    transform: translateY(120px);
+    margin-left: 50px;
+    color: white;
+}
+.btn-tabeston-click{
+    border: 3px solid black;
+    background-color: rgb(253, 227, 29);
+    border-radius: 3px;
+    padding: 10px 30px;
+    padding-bottom: 4px;
+    margin-left: 50px;
+    font-size: 20px;
+    transform: translateY(130px);
+    cursor: pointer;
+    gap: 5px;
+}
+.btn-tabeston-click:hover{
+    background: linear-gradient(rgb(253, 227, 29),gray);
+
+}
+.box-div{
+    width: 85%;
+    margin: 0 auto;
+}
+.sec-news{
+    width: 100%;
+    background-color: #e5e0ba;
+    margin-top: 20px;
+}
+.matn-news{
+    width: 100%;
+    justify-content: center;
+}
+.matn-news-mahsoul{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.div-man-rahrah{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.man-rahrah{
+    width: 100%;
+    height: 350px;
+}
+.img-rahrah{
+    height: 350px;
+    filter: sepia(100%);
+transition: all 0.2s;
+}
+.img-rahrah:hover{
+filter: sepia(0%);
+}
+.matn-rahrah{
+    background-color: rgb(231 229 232);
+    text-align: center;
+    width: 50%;
+    height: 350px;
+    padding-top: 10%;
+    line-height: 30px;
+}
+.matn-rahrah:hover{
+    background-color: rgb(194, 194, 194);
+
+}
+.kharid-link{
+    border: 1px dotted black;
+    color: black;
+    padding: 5px 10px;
+}
+.kharid-link:hover{
+    background-color: #e27d60;
+}
+.div-woman-kotjin{
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.woman-kotjin{
+    width: 100%;
+    height: 370px;
+}
+.img-kotjin{
+    height: 350px;
+    filter: sepia(100%);
+    transition: all 0.2s;
+}
+.img-kotjin:hover{
+    filter: sepia(0%);
+}
+.matn-kotjin{
+    background-color: rgb(231 229 232);
+    text-align: center;
+    width: 100%;
+    padding-top: 16%;
+    line-height: 30px;
+    padding-bottom: 18%;
+}
+.matn-kotjin:hover{
+    background-color: rgb(194, 194, 194);
+}
+.div-woman-hanofer{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.img-hANOFER{
+    height: 350px;
+    filter: sepia(100%);
+    transition: all 0.2s;
+}
+.img-hANOFER:hover{
+    filter: sepia(0%);
+}
+.woman-hanofer{
+    width: 100%;
+    height: 350px;
+}
+.matn-hanofer{
+    background-color: rgb(231 229 232);
+    text-align: center;
+    width: 50%;
+    height: 350px;
+    padding-top: 10%;
+    line-height: 30px;
+}
+.matn-hanofer:hover{
+    background-color: rgb(194, 194, 194);
+}
+.div-rast-new{
+    width: 70%;
+}
+.perfums-new{
+    width: 85%;
+    margin: 0 auto;
+}
+.matn-perfums{
+    width: 100%;
+    justify-content: center;
+    background-color: #e5e0ba;
+    padding-top: 40px;
+}
+.matn-titr{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.perfums{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #e5e0ba;
+    gap: 10rem;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+.div-perfums-green{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-perfums-green:hover .matn-green{
+    transform: scale(1);
+}
+.div-perfums-green:hover .fig{
+    transform: scale(.5) translateY(-205px);
+    z-index: 100;
+}
+.fig{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 13px black;
+    transition: all 1s;
+}
+.perfums-green{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.matn-green{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    transition: all 1s;
+    transform: scale(0);
+}
+.matn-green-content{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: end;
+    align-items: center;
+}
+.link-perfum:hover{
+    color: #41b3a3;
+}
+.perfums pre{
+    color: #e27d60;
+}
+.svg-right{
+    width: 25px;
+    height: 25px;
+    transform: translateY(2px);
+}
+.star-span{
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+.svg-star{
+    width: 20px;
+    height: 20px;
+}
+@media only screen and (max-width:950px) {
+    .div-attechmen{
+        background-image: none;
+        height: 100px;
+        display: none;
+    }
+    .divmobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .divwhatsapp{
+        display: flex;
+        justify-content: left;
+    }
+    .div-woman-kotjin{
+        display: none;
+    }
+    .div-rast-new{
+        width: 100%;
+    }
+    .div-man-rahrah{
+        width: 80%;
+
+    }
+    .div-woman-hanofer{
+        width: 80%;
+    }
+}
+@media only screen and (min-width:950px) {
+    .divmobile{
+        display: none;
+    }
+    .divwhatsapp{
+        display: none;
+    }
+}
+.divmobile{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 10px;
+    background-color: #e7e152;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 100;
+}
+.iconhome{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    color: black;
+}
+.icondaste{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.iconshop{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.iconprof{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.divwhatsapp{
+    width: 100%;
+    position: fixed;
+    bottom: 100px;
+    z-index: 100;
+}
+.whatsApp{
+    width: 70px;
+    height: 70px;
+}
